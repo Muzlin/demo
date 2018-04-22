@@ -37,7 +37,7 @@ $(function () {
         let id = setInterval(() => {
             btns.eq(n % btnLength).trigger('click')
             n++
-        }, 3000)
+        }, 1500)
         return id;
     }
 })
